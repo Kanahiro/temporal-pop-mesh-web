@@ -124,7 +124,7 @@ const Map: React.FunctionComponent = () => {
             sources: {
                 OSM: {
                     type: 'raster',
-                    tiles: ['http://tile.openstreetmap.org/{z}/{x}/{y}.png'],
+                    tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
                     tileSize: 256,
                     attribution:
                         '<a href="http://osm.org/copyright">© OpenStreetMap contributors</a>',
