@@ -22,7 +22,7 @@ const DataSelector: React.FunctionComponent<DataSelectorProps> = ({
     targetData,
     setTargetData,
 }) => {
-    const [day, setDay] = useState('d0');
+    const [day, setDay] = useState('d1');
     const [time, setTime] = useState('t0');
 
     useEffect(() => {

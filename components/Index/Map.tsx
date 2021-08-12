@@ -88,7 +88,7 @@ const initialStyle: maplibregl.Style = {
 const Map: React.FunctionComponent = () => {
     const [mapInstance, setMapInstance] = useState<maplibregl.Map | null>(null);
     const [mapStyle, setMapStyle] = useState<maplibregl.Style>(initialStyle);
-    const [targetData, setTargetData] = useState('d0t0');
+    const [targetData, setTargetData] = useState('d1t0');
     const [temporalController, setTemporalController] =
         useState<TemporalControl | null>(null);
 
